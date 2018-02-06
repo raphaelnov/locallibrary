@@ -1,8 +1,11 @@
 from django.db import models
 from django.urls import reverse #Used to generate the URL by reversing the URL patterns
-import uuid
+import uuid, datetime
 from django.contrib.auth.models import User
 from datetime import date
+
+
+
 # Create your models here.
 
 class Genre(models.Model):
@@ -126,3 +129,4 @@ class Author(models.Model):
         String for representing the Model object.
         """
         return '{0}, {1}'.format(self.last_name, self.first_name)
+
