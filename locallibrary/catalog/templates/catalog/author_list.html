@@ -9,11 +9,18 @@
       {% for author in author_list %}
       <li>
         <a href="{{ author.get_absolute_url }}">{{ author.last_name }},{{author.first_name}}</a>
+          {% if perms.catalog.can_mark_as_returned %}
+            <!-- Include code for author update and author delete -->
+          {% endif %}
       </li>
       {% endfor %}
 
     </ul>
     {% else %}
       <p>There are no authors in the library.</p>
-    {% endif %}       
+    {% endif %}
+
+    {% if perms.catalog.can_mark_as_returned %}
+        <!-- Include code for creating new author -->
+    {% endif %}
 {% endblock %}

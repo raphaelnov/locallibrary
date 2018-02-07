@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3deb06c-9068-4937-b50c-31963931638b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/locallibrary/catalog/forms.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_renew_librarian.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_form.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/models.py" afterPath="$PROJECT_DIR$/locallibrary/catalog/models.py" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed.html" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed.html" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_list.html" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_list.html" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_renew_librarian.html" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_renew_librarian.html" />
       <change beforePath="$PROJECT_DIR$/locallibrary/catalog/urls.py" afterPath="$PROJECT_DIR$/locallibrary/catalog/urls.py" />
       <change beforePath="$PROJECT_DIR$/locallibrary/catalog/views.py" afterPath="$PROJECT_DIR$/locallibrary/catalog/views.py" />
       <change beforePath="$PROJECT_DIR$/locallibrary/db.sqlite3" afterPath="$PROJECT_DIR$/locallibrary/db.sqlite3" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locallibrary/catalog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="94" column="46" lean-forward="false" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
+            <state relative-caret-position="307">
+              <caret line="110" column="56" lean-forward="false" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="56" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locallibrary/catalog/models.py">
+      <file leaf-file-name="author_detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="315">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -48,8 +48,18 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locallibrary/catalog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="88" lean-forward="false" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="88" />
+            <state relative-caret-position="210">
+              <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="author_list.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -60,16 +70,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book_renew_librarian.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_renew_librarian.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -99,9 +99,7 @@
         <option value="$PROJECT_DIR$/locallibrary/catalog/static/css/styles.css" />
         <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_list.html" />
         <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/base_generic.html" />
-        <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_list.html" />
         <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_detail.html" />
-        <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_detail.html" />
         <option value="$PROJECT_DIR$/locallibrary/catalog/templates/index.html" />
         <option value="$PROJECT_DIR$/locallibrary/locallibrary/urls.py" />
         <option value="$PROJECT_DIR$/locallibrary/templates/registration/logged_out.html" />
@@ -117,11 +115,15 @@
         <option value="$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html" />
         <option value="$PROJECT_DIR$/locallibrary/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/locallibrary/catalog/models.py" />
-        <option value="$PROJECT_DIR$/locallibrary/catalog/urls.py" />
-        <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_renew_librarian.html" />
         <option value="$PROJECT_DIR$/locallibrary/catalog/forms.py" />
         <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed.html" />
+        <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_renew_librarian.html" />
+        <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_form.html" />
+        <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/locallibrary/catalog/urls.py" />
         <option value="$PROJECT_DIR$/locallibrary/catalog/views.py" />
+        <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_detail.html" />
+        <option value="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_list.html" />
       </list>
     </option>
   </component>
@@ -163,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -207,7 +210,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,6 +271,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27137548" sideWeight="0.4759036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -277,7 +280,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37841725" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37841725" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981412" sideWeight="0.52409637" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -330,30 +333,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/locallibrary/catalog/models.py</url>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/locallibrary/catalog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -482,24 +466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -643,18 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,33 +632,47 @@
         <state relative-caret-position="180">
           <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding>
-            <element signature="e#1#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="94" column="46" lean-forward="false" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
+            <element signature="e#1#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/locallibrary/catalog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="-1703">
+          <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/urls.py">
+    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="88" lean-forward="false" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="88" />
+        <state relative-caret-position="95">
+          <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_renew_librarian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="97" lean-forward="false" selection-start-line="6" selection-start-column="97" selection-end-line="6" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_confirm_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -710,10 +685,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_renew_librarian.html">
+    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        <state relative-caret-position="315">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="110" column="56" lean-forward="false" selection-start-line="110" selection-start-column="56" selection-end-line="110" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
           <folding />
         </state>
       </provider>
