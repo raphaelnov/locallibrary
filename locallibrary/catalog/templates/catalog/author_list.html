@@ -7,10 +7,16 @@
     <ul>
 
       {% for author in author_list %}
-      <li>
+      <li {% if perms.catalog.can_mark_returned %}style="padding: 0.53em" {% endif %}>
         <a href="{{ author.get_absolute_url }}">{{ author.last_name }},{{author.first_name}}</a>
-          {% if perms.catalog.can_mark_as_returned %}
-            <!-- Include code for author update and author delete -->
+          {% if perms.catalog.can_mark_returned %}
+            <!--form action="" method="post">
+                <div class="btn-block" style="display: inline; aling: right">
+                    <input type="submit" value="Edit" class="btn btn-warning" />
+                    <input type="submit" value="Delete" class="btn btn-danger" />
+                    This is working - remember to delete this line
+                </div>
+            </form-->
           {% endif %}
       </li>
       {% endfor %}
@@ -19,8 +25,10 @@
     {% else %}
       <p>There are no authors in the library.</p>
     {% endif %}
-
-    {% if perms.catalog.can_mark_as_returned %}
-        <!-- Include code for creating new author -->
+    {% if perms.catalog.can_mark_returned %}
+        <!--a class="btn btn-primary" href="{% url 'author-create' %}">Include a new Author</a-->
     {% endif %}
+
+
+
 {% endblock %}
