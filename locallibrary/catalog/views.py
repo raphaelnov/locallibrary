@@ -6,10 +6,11 @@ from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMix
 from django.http import HttpResponseRedirect
 from django.urls import reverse, reverse_lazy
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
+
 import datetime
 
 
-from .forms import RenewBookForm
+from .forms import RenewBookForm #,RenewBookModelForm
 
 # Create your views here.
 @login_required
@@ -99,7 +100,7 @@ def renew_book_librarian(request, pk):
 
     return render(request, 'catalog/book_renew_librarian.html', {'form': form, 'bookinst':book_inst})
 
-class AuthorCreate(PermissionRequiredMixin, CreateView):
+class AuthorCreate(CreateView):
     permission_required = 'catalog.can_mark_as_returned'
     model = Author
     fields = '__all__'

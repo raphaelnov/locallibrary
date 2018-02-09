@@ -3,10 +3,10 @@
 {% block contents %}
 
 <form action="" method="post">
-    {% csfr_token %}
-    <table>
-        {{ form.as_table }}
-    </table>
+    {% csrf_token %}
+
+       {{form}}
+
     <input type="submit" value="Submit" />
 </form>
 

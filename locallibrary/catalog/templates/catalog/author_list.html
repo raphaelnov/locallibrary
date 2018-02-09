@@ -25,9 +25,14 @@
     {% else %}
       <p>There are no authors in the library.</p>
     {% endif %}
-    {% if perms.catalog.can_mark_returned %}
+        {% if perms.catalog.can_mark_returned %}
+        <form action="{% url 'author-create' %}" method="get">
+            {% csrf_token %}
+            <a class="btn btn-primary" href="{% url 'author-create' %}">Include a new Author</a>
+        </form>
+        {% endif %}
         <!--a class="btn btn-primary" href="{% url 'author-create' %}">Include a new Author</a-->
-    {% endif %}
+
 
 
 
